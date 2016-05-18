@@ -19,6 +19,8 @@ before_install:
   - if [ $TRAVIS_OS_NAME == osx ]; then brew update && brew install llvm; fi
 - gem update --system
 - gem --version
+
+install:  make get-deps
 before_script:
 - travis_retry bundle
 - if [ $TRAVIS_OS_NAME == linux ]; then travis_retry ./configure --llvm-config=llvm-config-3.6; fi
