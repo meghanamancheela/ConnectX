@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/meghanamancheela/ConnectX.svg?branch=master)](https://travis-ci.org/meghanamancheela/ConnectX)
 * Meghana Mancheela
 
 
